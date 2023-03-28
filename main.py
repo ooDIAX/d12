@@ -1,6 +1,7 @@
 import discord
 import os
 import logging
+import openai
 from logging.handlers import RotatingFileHandler
 from dotenv import load_dotenv
 
@@ -36,15 +37,53 @@ class MyClient(discord.Client):
         if message.content == 'ping':
             await message.channel.send('pong')
             logger.info('pong')
+        elif classify_intent(message.content) == 'cheap':
+            await message.channel.send('cheap')
+            logger.info('pong')
+        elif classify_intent(message.content) == 'expensive':
+            await message.channel.send('expensive')
+            logger.info('expensive')
+        else:
+            await message.channel.send('???')
+            logger.info('???')
+            
+
+def classify_intent(prompt):
+    model_engine = "text-davinci-002"  # or any other OpenAI model that suits your use case
+
+    # define the prompt to use for classification
+    prompt = (f"Please classify the following user input into one of the following categories: "
+              f"1. cheap\n2. expensive\n\n"
+              f"User Input: {prompt}\nCategory:")
+
+    # send prompt to OpenAI's API for classification
+    response = openai.Completion.create(
+        engine=model_engine,
+        prompt=prompt,
+        max_tokens=1,
+        n=1,
+        stop=None,
+        temperature=0.5,
+    )
+
+    # retrieve the predicted intent code from the response
+    predicted_intent = response.choices[0].text.strip().lower()
+
+    # return the predicted intent code
+    return predicted_intent
+
 
         
 
 if __name__ == "__main__":
+    load_dotenv()
+
     logger = init_logging(logging.root)
+    openai.api_key = (os.getenv('OPENAI_KEY'))
+
 
     intents = discord.Intents.default()
     intents.message_content = True
     client = MyClient(intents=intents)
 
-    load_dotenv()
-    client.run(os.getenv('TOKEN'))
+    client.run(os.getenv('DISCORD_BOT_TOKEN'))

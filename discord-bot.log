@@ -19,3 +19,256 @@
 2023-03-28 10:26:47,247:DEBUG:asyncio: Using proactor: IocpProactor
 2023-03-28 10:26:47,249:INFO:discord.client: logging in using static token
 2023-03-28 10:26:48,567:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 287df763817dea79e399903f45a64c0d).
+2023-03-28 11:31:52,528:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 11:31:52,529:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 11:31:52,532:INFO:discord.client: logging in using static token
+2023-03-28 11:31:53,896:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 28a9f91598e191c25f29e74976d43410).
+2023-03-28 11:32:02,465:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:32:02,466:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:32:02,468:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 11:32:02,472:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 11:32:03,835:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:32:03,839:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=461 request_id=45319be8276efe3cc42e39aa263f5c65 response_code=200
+2023-03-28 11:32:04,234:INFO:root: pong
+2023-03-28 11:32:18,077:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:32:18,078:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: \\u10eb\\u10d5\\u10d8\\u10e0\\u10d8\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:32:18,672:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:32:18,674:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=328 request_id=32fdce0b8d1abf2167a46011f40fbad7 response_code=200
+2023-03-28 11:32:18,677:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:32:18,678:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: \\u10eb\\u10d5\\u10d8\\u10e0\\u10d8\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:32:19,034:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:32:19,036:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=67 request_id=99ed0db45706e1bdc36cb63decb6b4ef response_code=200
+2023-03-28 11:32:19,484:INFO:root: ???
+2023-03-28 11:32:52,442:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:32:52,444:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: gime chap pro\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:32:52,773:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:32:52,775:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=64 request_id=957065ec6f2793300416c3125b4882ca response_code=200
+2023-03-28 11:32:52,777:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:32:52,778:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: gime chap pro\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:32:53,477:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:32:53,479:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=431 request_id=201786d395148e8df3c185328ded147e response_code=200
+2023-03-28 11:32:53,838:INFO:root: ???
+2023-03-28 11:33:09,717:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:33:09,718:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: pls gimme cheapest product\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:33:10,424:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:33:10,425:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=438 request_id=72917d1f503aeac69d7ff9c0cb57e420 response_code=200
+2023-03-28 11:33:10,831:INFO:root: pong
+2023-03-28 11:33:32,579:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:33:32,580:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: pls gimme chip product\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:33:32,995:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:33:32,996:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=149 request_id=44a219af2d69e395a22ca72d3e57305e response_code=200
+2023-03-28 11:33:33,452:INFO:root: pong
+2023-03-28 11:33:47,496:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:33:47,498:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: chip produqt\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:33:47,936:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:33:47,939:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=168 request_id=350362fe109bbf050d773d8d003f916a response_code=200
+2023-03-28 11:33:47,943:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:33:47,945:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: chip produqt\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:33:48,374:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:33:48,375:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=157 request_id=b71408397a4340d071d65957dbd20b27 response_code=200
+2023-03-28 11:33:48,746:INFO:root: ???
+2023-03-28 11:41:47,624:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:47,624:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hey!\\nI want something really cheap!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:47,627:DEBUG:urllib3.connectionpool: Resetting dropped connection: api.openai.com
+2023-03-28 11:41:48,545:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:41:48,546:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=157 request_id=fdb3ecc81de15dc2c6b5fb1b200522a9 response_code=200
+2023-03-28 11:41:48,549:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:48,549:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:48,997:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:48,998:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=186 request_id=b1134e07f707512b38bbe07b1b3988f1 response_code=200
+2023-03-28 11:41:48,999:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:49,000:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:49,442:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:49,443:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=178 request_id=3216293363f02308941df32a1828d68f response_code=200
+2023-03-28 11:41:49,848:INFO:root: pong
+2023-03-28 11:41:49,931:INFO:root: ???
+2023-03-28 11:41:50,144:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:50,145:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:50,476:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:50,477:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=70 request_id=7b3ce39fdc3777654b7f1c7a010c0387 response_code=200
+2023-03-28 11:41:50,479:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:50,480:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:50,878:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:50,879:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=137 request_id=e271e7bd9528d4fe189436f8a50312b2 response_code=200
+2023-03-28 11:41:51,208:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:51,210:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:51,719:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:51,720:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=248 request_id=edb83ab1bf295bdbab13c7102d0f609e response_code=200
+2023-03-28 11:41:51,722:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:51,723:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:52,119:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:52,121:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=126 request_id=7c68f81579d39829592a2931ece34943 response_code=200
+2023-03-28 11:41:52,124:INFO:root: ???
+2023-03-28 11:41:52,125:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:52,126:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:52,561:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 268
+2023-03-28 11:41:52,562:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=174 request_id=90fd0092853c94b1d45e0f88822e9fbc response_code=200
+2023-03-28 11:41:52,563:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:52,564:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:52,992:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 271
+2023-03-28 11:41:52,993:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=163 request_id=9ea554af69ce6d05f7c25df704888754 response_code=200
+2023-03-28 11:41:52,994:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:52,995:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:53,423:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:53,424:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=163 request_id=9e0dc0f0709f8797d1568b3d934c8285 response_code=200
+2023-03-28 11:41:53,425:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:53,427:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:53,862:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:53,862:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=173 request_id=5626d0d894877292dda63b7d4f7d4000 response_code=200
+2023-03-28 11:41:53,866:INFO:root: ???
+2023-03-28 11:41:53,867:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:53,868:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:54,285:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:54,286:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=146 request_id=ab00a607edb3cb42d68905e2000ffda8 response_code=200
+2023-03-28 11:41:54,287:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:54,288:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:54,733:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:54,734:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=174 request_id=5dd4b610d4c2d7eb516894f175946e4b response_code=200
+2023-03-28 11:41:54,736:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:54,737:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:55,174:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:55,177:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=174 request_id=d2bee8255bcb4dcc96677689c710cfa9 response_code=200
+2023-03-28 11:41:55,181:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:55,183:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:55,603:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 268
+2023-03-28 11:41:55,604:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=156 request_id=3a989929aad7a775685a259a85651bb7 response_code=200
+2023-03-28 11:41:55,606:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:55,607:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:56,084:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:56,086:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=209 request_id=97df788bd0392c8365e69222cc8bd0e8 response_code=200
+2023-03-28 11:41:56,087:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:56,088:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:56,499:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:56,500:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=150 request_id=6b7f6a10797efbd043c1a63b9b714391 response_code=200
+2023-03-28 11:41:56,505:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:56,506:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:56,927:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:56,928:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=161 request_id=e0e301c6934e5b52b32c6f4e5d1dcf8d response_code=200
+2023-03-28 11:41:56,930:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:56,931:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:57,375:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:57,376:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=155 request_id=4a14d29535035bb8012ddbd45216424f response_code=200
+2023-03-28 11:41:57,379:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:57,380:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:57,815:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:57,817:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=174 request_id=7c6e6616f63e14b6dad721f94fb8b2b1 response_code=200
+2023-03-28 11:41:57,819:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:57,821:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:58,261:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:58,263:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=176 request_id=9b70e8ddca51803afb79dd82718d4d42 response_code=200
+2023-03-28 11:41:58,267:INFO:root: ???
+2023-03-28 11:41:58,268:INFO:root: ???
+2023-03-28 11:41:58,269:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:58,271:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:58,703:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:58,706:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=171 request_id=57c58a0cc4538ab4d4537f23f98e3ec1 response_code=200
+2023-03-28 11:41:58,708:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:58,709:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:59,026:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:41:59,028:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=58 request_id=2f9e6b2229bc97ee54b34bbf64d14c72 response_code=200
+2023-03-28 11:41:59,030:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:59,031:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:59,420:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:59,422:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=131 request_id=aadf9936f32549e99049107b401f1ab7 response_code=200
+2023-03-28 11:41:59,423:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:59,423:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:41:59,808:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:41:59,809:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=118 request_id=88788294afee8fca813b008f2d2acdaa response_code=200
+2023-03-28 11:41:59,817:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:41:59,817:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:00,219:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:42:00,221:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=142 request_id=8c5feb4ef4ad16d3b611cc576c5787d7 response_code=200
+2023-03-28 11:42:00,222:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:42:00,223:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:00,627:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:42:00,628:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=144 request_id=3dc2c285e28d1ae70255d3674e95cf5e response_code=200
+2023-03-28 11:42:00,630:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:42:00,630:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:01,037:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:42:01,039:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=148 request_id=44c7dae60cca50505bde58fbcb3616ce response_code=200
+2023-03-28 11:42:01,041:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:42:01,042:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Sorry, we cannot answer your question at the moment. Please try to rephrase it!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:01,466:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 267
+2023-03-28 11:42:01,468:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=164 request_id=ecac94061b9c7b04de7f4781e16f44a1 response_code=200
+2023-03-28 11:42:01,470:INFO:root: ???
+2023-03-28 11:42:01,473:INFO:root: ???
+2023-03-28 11:42:01,474:INFO:root: ???
+2023-03-28 11:42:01,475:INFO:root: ???
+2023-03-28 11:42:01,476:INFO:root: ???
+2023-03-28 11:42:01,477:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:42:01,478:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:01,923:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:42:01,924:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=127 request_id=eab9283b89c69fac648684d7a1a19981 response_code=200
+2023-03-28 11:42:01,926:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:42:01,927:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:42:02,363:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:42:02,364:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=175 request_id=b6b1c1dd8bce0604337e71098885edeb response_code=200
+2023-03-28 11:42:02,685:WARNING:discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1089483522009485367/messages responded with 429. Retrying in 0.88 seconds.
+2023-03-28 11:42:02,740:INFO:root: ???
+2023-03-28 11:42:02,749:INFO:root: ???
+2023-03-28 11:42:02,789:INFO:root: ???
+2023-03-28 11:42:03,992:INFO:root: ???
+2023-03-28 11:42:05,169:INFO:root: ???
+2023-03-28 11:42:18,195:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 11:42:18,196:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 11:42:18,198:INFO:discord.client: logging in using static token
+2023-03-28 11:42:19,576:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 7af667b76bf2468f0de7a31f9e8ab093).
+2023-03-28 11:46:17,805:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:46:17,806:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hi! Cheapest product please?\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:46:17,808:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 11:46:17,811:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 11:46:18,717:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:46:18,719:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=150 request_id=be0f7823367b280245765247b16b852e response_code=200
+2023-03-28 11:46:19,192:INFO:root: pong
+2023-03-28 11:46:31,266:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:46:31,267:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hi! Cheapest product please?\\n<@1089457767217119402>\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:46:31,613:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:46:31,615:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=77 request_id=2189f14348bd8d15b473ce9dc6b33c84 response_code=200
+2023-03-28 11:46:31,635:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:46:31,636:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:46:31,968:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:46:31,969:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=63 request_id=56f709128df916149c61ac116ab22603 response_code=200
+2023-03-28 11:46:31,971:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:46:31,972:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:46:32,304:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:46:32,306:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=68 request_id=1ff3b971e8b0148ce5f49421392ef605 response_code=200
+2023-03-28 11:46:32,309:INFO:root: pong
+2023-03-28 11:46:32,762:INFO:root: ???
+2023-03-28 11:50:23,906:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:50:23,908:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hi! Cheapest product please?\\n<@1089457767217119402>\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:50:23,913:DEBUG:urllib3.connectionpool: Resetting dropped connection: api.openai.com
+2023-03-28 11:50:24,785:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:50:24,788:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=71 request_id=d241069478f86cc00f7da330e17ee62a response_code=200
+2023-03-28 11:50:24,791:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:50:24,793:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hi! Cheapest product please?\\n<@1089457767217119402>\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:50:25,230:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:50:25,232:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=163 request_id=872d45aaaa6d6f2d9f3e168cc872f342 response_code=200
+2023-03-28 11:50:25,236:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:50:25,237:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:50:25,626:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 268
+2023-03-28 11:50:25,628:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=116 request_id=0ed0d2377c87786399bf37a3cfc737d7 response_code=200
+2023-03-28 11:50:25,629:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:50:25,630:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:50:25,963:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:50:25,965:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=62 request_id=ef00630b80d81ff192486887f673ea99 response_code=200
+2023-03-28 11:50:26,382:INFO:root: ???
+2023-03-28 11:50:26,417:INFO:root: ???
+2023-03-28 11:51:18,344:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:51:18,346:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hi! Cheapest product please?\\n<@1089457767217119402>\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:51:18,816:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:51:18,818:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=186 request_id=c4da7af7df151289ae4ff173ce41dafe response_code=200
+2023-03-28 11:51:18,821:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:51:18,822:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:51:19,240:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 268
+2023-03-28 11:51:19,241:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=146 request_id=8a2fcd29b63522ee4c7c8ba7019999f5 response_code=200
+2023-03-28 11:51:19,242:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:51:19,242:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Hello!\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:51:19,748:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 11:51:19,750:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=149 request_id=75abe8941078b385b619b76c0bd06b88 response_code=200
+2023-03-28 11:51:20,111:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 11:51:20,112:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: Cheapest product is yellow book with price 1\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 11:51:20,648:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 11:51:20,653:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=264 request_id=5c475416e506626a9a3530fba13c7fea response_code=200
+2023-03-28 11:51:20,663:INFO:root: pong
+2023-03-28 11:51:20,666:INFO:root: ???
+2023-03-28 11:51:21,287:INFO:root: pong
