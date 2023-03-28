@@ -272,3 +272,181 @@
 2023-03-28 11:51:20,663:INFO:root: pong
 2023-03-28 11:51:20,666:INFO:root: ???
 2023-03-28 11:51:21,287:INFO:root: pong
+2023-03-28 12:42:58,983:INFO:root: Bot script started
+2023-03-28 12:43:43,103:INFO:root: Bot script started
+2023-03-28 12:43:43,105:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 12:43:43,107:DEBUG:discord.client: on_ready has successfully been registered as an event
+2023-03-28 12:43:43,108:DEBUG:discord.client: on_message has successfully been registered as an event
+2023-03-28 12:43:43,109:DEBUG:discord.client: on_command_error has successfully been registered as an event
+2023-03-28 12:43:43,109:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:43:43,111:INFO:discord.client: logging in using static token
+2023-03-28 12:43:44,468:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 90c98676bca652f4883623892a61812d).
+2023-03-28 12:43:46,491:INFO:root: Bot ready - logged in as NikoBot#2799 (ID: 755104881802739802)
+2023-03-28 12:43:56,368:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 12:43:56,369:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802> qq\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 12:43:56,370:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 12:43:56,372:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 12:43:57,706:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 12:43:57,707:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=68 request_id=6946da65d302f7b3413118d999b868e1 response_code=200
+2023-03-28 12:43:57,713:INFO:root: OpenAI response: 1
+2023-03-28 12:44:10,593:INFO:root: Bot started
+2023-03-28 12:46:28,279:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:46:28,281:INFO:discord.client: logging in using static token
+2023-03-28 12:46:29,694:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: fdfe243bc02cd1eec52b19e97ff59d70).
+2023-03-28 12:49:49,482:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:49:49,484:INFO:discord.client: logging in using static token
+2023-03-28 12:49:50,971:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 9af85523bbd2f135eb31ff92fa6b8090).
+2023-03-28 12:50:00,293:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 44, in on_message
+    if self.bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:50:04,009:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 44, in on_message
+    if self.bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:51:33,231:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:51:33,233:INFO:discord.client: logging in using static token
+2023-03-28 12:51:34,615:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: db019b5083823096b096a6bf109fc97b).
+2023-03-28 12:51:53,680:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 45, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:52:07,122:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 45, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:52:14,456:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 45, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:53:05,788:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:53:05,790:INFO:discord.client: logging in using static token
+2023-03-28 12:53:07,268:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 6a3dba2765633335b5ca1337bb1d5b28).
+2023-03-28 12:53:16,299:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 45, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 12:55:54,818:ERROR:asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000214AB283430>
+2023-03-28 12:55:54,819:ERROR:asyncio: Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x00000214AB2CCA90>
+transport: <_ProactorSocketTransport fd=688 read=<_OverlappedFuture cancelled>>
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 365, in write
+    self._loop_writing(data=bytes(data))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+AttributeError: 'NoneType' object has no attribute 'send'
+2023-03-28 12:56:19,377:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 12:56:19,378:DEBUG:discord.client: on_message has successfully been registered as an event
+2023-03-28 12:56:19,379:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 12:56:19,381:INFO:discord.client: logging in using static token
+2023-03-28 12:56:20,690:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 2c058c548bcdfb093f899b15217f20e8).
+2023-03-28 12:56:28,767:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 55, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 13:01:16,045:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:01:16,046:DEBUG:discord.client: on_message has successfully been registered as an event
+2023-03-28 13:01:16,047:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:01:16,048:INFO:discord.client: logging in using static token
+2023-03-28 13:01:17,471:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: ccddcb705aa6a61b7ab9c8dce913c3e1).
+2023-03-28 13:01:27,878:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+TypeError: MyClient.on_message() missing 1 required positional argument: 'message'
+2023-03-28 13:01:53,740:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+TypeError: MyClient.on_message() missing 1 required positional argument: 'message'
+2023-03-28 13:03:13,047:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:03:13,048:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:03:13,051:INFO:discord.client: logging in using static token
+2023-03-28 13:03:14,389:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 128290391d89a560c90e9c5a092f2093).
+2023-03-28 13:03:51,313:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:03:51,318:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:03:51,320:INFO:discord.client: logging in using static token
+2023-03-28 13:03:52,688:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: b634d1ca38a4a00157922344e74e7db0).
+2023-03-28 13:04:10,217:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:04:10,219:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:04:10,221:INFO:discord.client: logging in using static token
+2023-03-28 13:04:11,601:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 243c34b08b515d8a86e91c9564ef3995).
+2023-03-28 13:04:22,908:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:04:22,909:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:04:22,912:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 13:04:22,918:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 13:04:23,819:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 13:04:23,823:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=108 request_id=eddba8778a5b7ef20305cc0560a867b1 response_code=200
+2023-03-28 13:04:24,335:INFO:root: pong
+2023-03-28 13:04:49,555:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:04:49,555:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:04:49,561:INFO:discord.client: logging in using static token
+2023-03-28 13:04:51,049:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: da1b9aa0771e86e9f32f2761e6d4aa75).
+2023-03-28 13:05:01,908:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 55, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 13:05:15,449:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 55, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 13:05:17,344:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\py3\d12\d12vm\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\py3\d12\main.py", line 55, in on_message
+    if bot.user.mentioned_in(message):
+AttributeError: 'NoneType' object has no attribute 'mentioned_in'
+2023-03-28 13:07:51,140:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:07:51,141:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:07:51,143:INFO:discord.client: logging in using static token
+2023-03-28 13:07:52,511:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: b92ccb033829e8b3e51d844be8ffa9c9).
+2023-03-28 13:08:06,082:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:08:06,082:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802>  cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:08:06,089:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 13:08:06,094:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 13:08:07,043:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 13:08:07,050:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=162 request_id=bfc2d75e9eb6c19069a5b051acb9aeab response_code=200
+2023-03-28 13:08:07,557:INFO:root: cheap
+2023-03-28 13:11:08,514:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:11:08,514:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:11:08,515:INFO:discord.client: logging in using static token
+2023-03-28 13:11:09,905:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 86e64cf847ff45df23dfb79d85f59de6).
+2023-03-28 13:11:20,712:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:11:20,712:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802> cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:11:20,715:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 13:11:20,716:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 13:11:21,671:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 13:11:21,673:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=134 request_id=997d0a555f06b88808334f419a5d1ffb response_code=200
+2023-03-28 13:11:22,091:INFO:root: pong

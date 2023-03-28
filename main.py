@@ -34,19 +34,21 @@ class MyClient(discord.Client):
         if message.author == self.user:
             return
 
-        if message.content == 'ping':
-            await message.channel.send('pong')
-            logger.info('pong')
-        elif classify_intent(message.content) == 'cheap':
-            await message.channel.send('cheap')
-            logger.info('pong')
-        elif classify_intent(message.content) == 'expensive':
-            await message.channel.send('expensive')
-            logger.info('expensive')
-        else:
-            await message.channel.send('???')
-            logger.info('???')
-            
+        if self.user.mentioned_in(message):
+        
+            if message.content == 'ping':
+                await message.channel.send('pong')
+                logger.info('pong')
+            elif classify_intent(message.content) == 'cheap':
+                await message.channel.send('cheap')
+                logger.info('pong')
+            elif classify_intent(message.content) == 'expensive':
+                await message.channel.send('expensive')
+                logger.info('expensive')
+            else:
+                await message.channel.send('???')
+                logger.info('???')
+                
 
 def classify_intent(prompt):
     model_engine = "text-davinci-002"  # or any other OpenAI model that suits your use case
