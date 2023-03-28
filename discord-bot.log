@@ -1,0 +1,21 @@
+2023-03-28 10:23:50,345:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 10:23:50,346:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 10:23:50,347:INFO:discord.client: logging in using static token
+2023-03-28 10:24:20,125:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 10:24:20,126:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 10:24:20,128:INFO:discord.client: logging in using static token
+2023-03-28 10:24:23,518:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 10:24:23,520:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 10:24:23,522:INFO:discord.client: logging in using static token
+2023-03-28 10:24:24,943:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 862e0e38c7e3e79ff5f4d8c7494bb4ca).
+2023-03-28 10:25:44,131:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 10:25:44,132:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 10:25:44,135:INFO:discord.client: logging in using static token
+2023-03-28 10:25:45,692:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: ee331ff37b93c243290a1ee13f039ec2).
+2023-03-28 10:25:48,586:INFO:root: pong
+2023-03-28 10:26:08,644:INFO:root: pong
+2023-03-28 10:26:10,398:INFO:root: pong
+2023-03-28 10:26:47,245:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 10:26:47,247:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 10:26:47,249:INFO:discord.client: logging in using static token
+2023-03-28 10:26:48,567:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 287df763817dea79e399903f45a64c0d).
