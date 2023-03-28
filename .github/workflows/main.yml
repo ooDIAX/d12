@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: deplot to AWS
 
 on:
   push:
@@ -18,4 +18,5 @@ jobs:
       - name: Deploy with git pull and running update.sh on the instance
         run: |
           echo "Deploying to ${{ vars.SERVER_ADDRESS }} ..."
+
           ssh -i ~/.ssh/id_rsa ubuntu@"${{ vars.SERVER_ADDRESS }}" "cd d12 && git checkout -- . && git pull && chmod u+x update.sh && ./update.sh"

@@ -450,3 +450,46 @@ AttributeError: 'NoneType' object has no attribute 'mentioned_in'
 2023-03-28 13:11:21,671:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
 2023-03-28 13:11:21,673:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=134 request_id=997d0a555f06b88808334f419a5d1ffb response_code=200
 2023-03-28 13:11:22,091:INFO:root: pong
+2023-03-28 13:33:25,696:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:33:25,696:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:33:25,699:INFO:discord.client: logging in using static token
+2023-03-28 13:33:27,053:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 79382c9795ce524979f9822e271e1a9d).
+2023-03-28 13:33:36,975:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:33:36,975:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802> cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:33:36,981:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 13:33:36,986:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 13:33:38,405:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 13:33:38,405:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=151 request_id=5e40979a783f3918508336d7d912166e response_code=200
+2023-03-28 13:33:38,421:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:33:38,425:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802> cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:33:38,813:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 13:33:38,817:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=106 request_id=2a5bb8b5827578dfbd8e38a9c4465069 response_code=200
+2023-03-28 13:33:39,350:INFO:root: ???
+2023-03-28 13:35:21,495:ERROR:asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000237362E2740>
+2023-03-28 13:35:21,495:ERROR:asyncio: Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x00000237362E29E0>
+transport: <_ProactorSocketTransport fd=700 read=<_OverlappedFuture cancelled>>
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 365, in write
+    self._loop_writing(data=bytes(data))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+AttributeError: 'NoneType' object has no attribute 'send'
+2023-03-28 13:35:53,764:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-28 13:35:53,768:DEBUG:asyncio: Using proactor: IocpProactor
+2023-03-28 13:35:53,769:INFO:discord.client: logging in using static token
+2023-03-28 13:35:55,257:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: bd41f8c6bbfce76ef9c36eb6c703e198).
+2023-03-28 13:36:11,520:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:36:11,520:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802>  cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:36:11,528:DEBUG:urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-03-28 13:36:11,533:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): api.openai.com:443
+2023-03-28 13:36:12,487:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 265
+2023-03-28 13:36:12,491:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=187 request_id=371371ab10abe346f75a30a9878ae31c response_code=200
+2023-03-28 13:36:12,579:DEBUG:openai: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+2023-03-28 13:36:12,580:DEBUG:openai: api_version=None data='{"prompt": "Please classify the following user input into one of the following categories: 1. cheap\\n2. expensive\\n\\nUser Input: <@755104881802739802>  cheap\\nCategory:", "max_tokens": 1, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+2023-03-28 13:36:12,987:DEBUG:urllib3.connectionpool: https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 269
+2023-03-28 13:36:12,991:DEBUG:openai: message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=146 request_id=fdbfc630a17fa8efb20f6d101f0aac4e response_code=200
+2023-03-28 13:36:13,482:INFO:root: ???

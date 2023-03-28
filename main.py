@@ -72,6 +72,7 @@ def classify_intent(prompt):
     predicted_intent = response.choices[0].text.strip().lower()
 
     # return the predicted intent code
+    logger.info("openAI: ", predicted_intent)
     return predicted_intent
 
 
