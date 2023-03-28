@@ -1,0 +1,21 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create SSH key
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          ssh-keyscan -H "${{ vars.SERVER_ADDRESS }}" > ~/.ssh/known_hosts
+      - name: Deploy with git pull and running update.sh on the instance
+        run: |
+          echo "Deploying to ${{ vars.SERVER_ADDRESS }} ..."
+          ssh -i ~/.ssh/id_rsa ubuntu@"${{ vars.SERVER_ADDRESS }}" "cd d12 && git checkout -- . && git pull && chmod u+x update.sh && ./update.sh"
