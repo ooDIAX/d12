@@ -79,6 +79,8 @@ def classify_intent(prompt):
         
 
 if __name__ == "__main__":
+
+    x = 0
     load_dotenv()
 
     logger = init_logging(logging.root)
